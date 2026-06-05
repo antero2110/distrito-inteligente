@@ -7,16 +7,21 @@ return ( <main className="min-h-screen bg-white text-gray-900">
   <section className="bg-gradient-to-b from-blue-900 to-blue-700 text-white">
     <div className="max-w-6xl mx-auto px-6 py-24 text-center">
       <div className="flex justify-center mb-6">
-  <Image
+<div className="flex justify-center mb-4">
+  <img
     src="/logo.png"
     alt="Distrito Inteligente"
-    width={450}
-    height={120}
-    priority
+    width="450"
   />
 </div>
-        Distrito Inteligente
-      </h1>
+
+<h1 className="text-5xl font-bold mb-6">
+  Distrito Inteligente
+</h1>
+
+<h2 className="text-3xl font-semibold mb-4">
+  Sua empresa funcionando 24 horas por dia.
+</h2>
 
       <h2 className="text-3xl font-semibold mb-4">
         Sua empresa funcionando 24 horas por dia.
