@@ -4,21 +4,17 @@ return ( <main className="min-h-screen bg-white text-gray-900">
 
 ```
   {/* Hero */}
-  <section className="bg-gradient-to-b from-blue-900 to-blue-700 text-white">
-    <div className="max-w-6xl mx-auto px-6 py-24 text-center">
-      <div className="flex justify-center mb-6">
-  <img
-    src="/logo.png"
-    alt="Distrito Inteligente"
-    width="450"
-  />
+<section className="bg-gradient-to-b from-slate-950 to-blue-950 text-white">
+    <div className="max-w-6xl mx-auto px-6 py-0 text-center">
+      <div className="flex justify-center mb-1">
+<img
+  src="/logo.png"
+  alt="Distrito Inteligente"
+  className="w-[350px] mx-auto"
+/>
 </div>
 
-<h1 className="text-5xl font-bold mb-6">
-  Distrito Inteligente
-</h1>
-
-<h2 className="text-3xl font-semibold mb-4">
+<h2 className="text-3xl font-semibold mb-2">
   Sua empresa funcionando 24 horas por dia.
 </h2>
 
