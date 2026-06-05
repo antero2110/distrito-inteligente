@@ -7,7 +7,6 @@ return ( <main className="min-h-screen bg-white text-gray-900">
   <section className="bg-gradient-to-b from-blue-900 to-blue-700 text-white">
     <div className="max-w-6xl mx-auto px-6 py-24 text-center">
       <div className="flex justify-center mb-6">
-<div className="flex justify-center mb-4">
   <img
     src="/logo.png"
     alt="Distrito Inteligente"
@@ -22,10 +21,6 @@ return ( <main className="min-h-screen bg-white text-gray-900">
 <h2 className="text-3xl font-semibold mb-4">
   Sua empresa funcionando 24 horas por dia.
 </h2>
-
-      <h2 className="text-3xl font-semibold mb-4">
-        Sua empresa funcionando 24 horas por dia.
-      </h2>
 
       <p className="text-xl max-w-3xl mx-auto mb-8">
         Automação e IA para empresas que querem crescer.
@@ -140,7 +135,7 @@ return ( <main className="min-h-screen bg-white text-gray-900">
       </p>
 
       <a
-        href="https://wa.me/55SEUNUMERO"
+        href="https://wa.me/61982893385"
         target="_blank"
         className="bg-white text-blue-900 px-8 py-4 rounded-xl font-bold text-lg"
       >
