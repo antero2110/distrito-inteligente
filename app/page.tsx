@@ -1,3 +1,4 @@
+import Image from "next/image";
 export default function Home() {
 return ( <main className="min-h-screen bg-white text-gray-900">
 
@@ -5,7 +6,15 @@ return ( <main className="min-h-screen bg-white text-gray-900">
   {/* Hero */}
   <section className="bg-gradient-to-b from-blue-900 to-blue-700 text-white">
     <div className="max-w-6xl mx-auto px-6 py-24 text-center">
-      <h1 className="text-5xl font-bold mb-6">
+      <div className="flex justify-center mb-6">
+  <Image
+    src="/logo.png"
+    alt="Distrito Inteligente"
+    width={450}
+    height={120}
+    priority
+  />
+</div>
         Distrito Inteligente
       </h1>
 
