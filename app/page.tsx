@@ -1,33 +1,31 @@
-import Image from "next/image";
+import React from "react";
+
 export default function Home() {
 return ( <main className="min-h-screen bg-white text-gray-900">
+{/* Hero */} <section className="bg-gradient-to-b from-slate-950 to-blue-950 text-white"> <div className="max-w-6xl mx-auto px-6 py-12 text-center">
+      <div className="flex justify-center mb-4">
+        <img
+          src="/logo.png"
+          alt="Distrito Inteligente"
+          className="w-[350px] md:w-[450px] max-w-full h-auto mx-auto"
+        />
+      </div>
 
-```
-  {/* Hero */}
-<section className="bg-gradient-to-b from-slate-950 to-blue-950 text-white">
-    <div className="max-w-6xl mx-auto px-6 py-0 text-center">
-      <div className="flex justify-center mb-1">
-<img
-  src="/logo.png"
-  alt="Distrito Inteligente"
-  className="w-[350px] mx-auto"
-/>
-</div>
+      <h1 className="text-4xl md:text-6xl font-bold mb-4">
+        Sua empresa funcionando 24 horas por dia.
+      </h1>
 
-<h2 className="text-3xl font-semibold mb-2">
-  Sua empresa funcionando 24 horas por dia.
-</h2>
-
-      <p className="text-xl max-w-3xl mx-auto mb-8">
+      <p className="text-lg md:text-xl max-w-3xl mx-auto mb-8">
         Automação e IA para empresas que querem crescer.
-        Transforme o atendimento da sua empresa com
-        inteligência artificial e automações inteligentes.
+        Transforme o atendimento da sua empresa com inteligência artificial,
+        automações inteligentes e atendimento automatizado.
       </p>
 
       <a
         href="https://wa.me/5561982893385"
         target="_blank"
-        className="bg-white text-blue-900 px-8 py-4 rounded-xl font-bold text-lg hover:scale-105 transition"
+        rel="noopener noreferrer"
+        className="bg-white text-blue-900 px-8 py-4 rounded-xl font-bold text-lg hover:scale-105 transition inline-block"
       >
         Solicitar Demonstração
       </a>
@@ -87,7 +85,6 @@ return ( <main className="min-h-screen bg-white text-gray-900">
       </h2>
 
       <div className="grid md:grid-cols-2 gap-8">
-
         <div className="bg-white rounded-2xl p-8 shadow-lg">
           <h3 className="text-2xl font-bold mb-4">
             Clínicas Odontológicas
@@ -113,26 +110,25 @@ return ( <main className="min-h-screen bg-white text-gray-900">
             <li>✓ Encaminhamento para corretores</li>
           </ul>
         </div>
-
       </div>
     </div>
   </section>
 
   {/* CTA */}
-  <section className="bg-blue-900 text-white py-20">
+  <section className="bg-blue-950 text-white py-20">
     <div className="max-w-4xl mx-auto text-center px-6">
       <h2 className="text-4xl font-bold mb-6">
         Pronto para automatizar sua empresa?
       </h2>
 
       <p className="text-xl mb-8">
-        Solicite uma demonstração gratuita e veja a IA funcionando
-        na prática.
+        Solicite uma demonstração gratuita e veja a IA funcionando na prática.
       </p>
 
       <a
-        href="https://wa.me/61982893385"
+        href="https://wa.me/5561982893385"
         target="_blank"
+        rel="noopener noreferrer"
         className="bg-white text-blue-900 px-8 py-4 rounded-xl font-bold text-lg"
       >
         Falar no WhatsApp
@@ -140,14 +136,11 @@ return ( <main className="min-h-screen bg-white text-gray-900">
     </div>
   </section>
 
-  {/* Footer */}
   <footer className="bg-black text-white py-8 text-center">
     <p>
       © 2026 Distrito Inteligente - Automação e IA para empresas que querem crescer.
     </p>
   </footer>
-
 </main>
-
 );
 }
