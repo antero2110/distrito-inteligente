@@ -2,8 +2,28 @@ import React from "react";
 
 export default function Home() {
 return ( <main className="min-h-screen bg-white text-gray-900">
-{/* Hero */} <section className="bg-gradient-to-b from-slate-950 to-blue-950 text-white"> <div className="max-w-6xl mx-auto px-6 py-12 text-center">
-      <div className="flex justify-center mb-4">
+<nav className="bg-black border-b border-gray-800 text-white">
+  <div className="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center">
+
+    <img
+      src="/logo.png"
+      alt="Distrito Inteligente"
+      className="h-20 w-auto"
+    />
+
+    <a
+      href="https://wa.me/5561982893385"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="bg-green-500 text-white px-4 py-2 rounded-lg font-semibold"
+    >
+      WhatsApp
+    </a>
+
+  </div>
+</nav> 
+{/* Hero */} <section className="bg-gradient-to-b from-slate-950 to-blue-950 text-white"> <div className="max-w-6xl mx-auto px-6 py-2 text-center">
+      <div className="flex justify-center mb-0">
         <img
           src="/logo.png"
           alt="Distrito Inteligente"
@@ -11,7 +31,7 @@ return ( <main className="min-h-screen bg-white text-gray-900">
         />
       </div>
 
-      <h1 className="text-4xl md:text-6xl font-bold mb-4">
+      <h1 className="text-4xl md:text-5xl font-bold mb-4">
         Sua empresa funcionando 24 horas por dia.
       </h1>
 
